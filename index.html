@@ -1,0 +1,18 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleTelegram Mini Apptitle
+head
+body
+    h1Telegram Camera Mini Apph1
+    button id=openCameraOpen Camerabutton
+
+    script
+        document.getElementById('openCamera').addEventListener('click', function() {
+            Telegram.WebApp.showScanQrPopup();
+        });
+    script
+body
+html
